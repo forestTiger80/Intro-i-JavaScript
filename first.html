@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+        alert("here first code block");
+        alert("here after the first");
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Test Page</h1>
+    <script type="text/javascript">
+        alert("here the second block of code");
+    </script>
+    <p>Some more HTML</p>
+    <script type="text/javascript">
+        alert("the third block of code");
+        function letsDoit(){
+            alert("Function in the third block of code");
+        }
+        letsDoit();
+        var doMath = function(num1, num2){
+            var result = num1 + num2;
+            return result;
+        }
+        var myResult = doMath(4,5);
+        console.log(myResult);
+    </script>
+</body>
+</html>
