@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function sayHi(){
+        const miObjeto = {}
+            miObjeto.nombre = "Edgardo Daniel";
+            console.log(miObjeto);
+                {nombre:"Edgardo Daniel"}
+            miObjeto.apellido = "Vidal Salinas";
+            console.log(miObjeto);
+
+            console.log("hola " + miObjeto.nombre);
+        }
+        sayHi();
+
+        function sayHiagain(message){
+            console.log(message, this.nombreCompleto);
+
+        }
+        const Artistas ={
+            nombreCompleto: "Ramiro"
+        }
+        sayHiagain.call(Artistas, "HOLA");
+    </script>
+    <title>Functions in javaScript</title>
+</head>
+<body>
+    
+</body>
+</html>
