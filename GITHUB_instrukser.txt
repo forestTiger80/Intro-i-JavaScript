@@ -1,10 +1,18 @@
 Setting up your own environment 
 
-
+INSTRUCTIONS:
 
 1- sjekk om git er installert:
     type følgende command in the  terminal:
     git --version
+    
+    Er Git ikke installert??
+    
+    copy-and-paste the link bellow
+    
+    http://git-scm.com/
+     choose your operative system:
+     
 
     Hvis git er ikke installert sjekk linken: https://www.geeksforgeeks.org/how-to-install-git-in-vs-code/
 
