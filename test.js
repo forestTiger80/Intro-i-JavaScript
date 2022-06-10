@@ -10,6 +10,6 @@ class Robot{
 
     }
 }
-
+/// the object "r"
 const r = new Robot('Rebekka', 'DFE45');
 console.log(r.greeting());
